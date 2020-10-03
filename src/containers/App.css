@@ -1,0 +1,26 @@
+.App {
+	text-align: center;
+}
+@font-face {
+	font-family: 'SEGA LOGO FONT';
+	font-style: normal;
+	font-weight: normal;
+	src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
+}
+h1{
+	font-family: 'SEGA LOGO FONT';
+	font-weight:200;
+	color:#0ccac4;
+}
+.App-link {
+	color: #61dafb;
+}
+
+::-webkit-scrollbar {
+	width:5px;
+	background-color:transparent;
+}
+::-webkit-scrollbar-thumb{
+	border-radius:5px;
+	background-color:lightblue;
+}
